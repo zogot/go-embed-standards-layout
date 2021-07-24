@@ -3,7 +3,7 @@
 While experimenting with Go and trying out the go:embed directive to serve a VueJS application I was running
 into an issue with trying to stick to the [golang-standards project layout][l-gspj]
 
-This is because `go:embed` doesnt let you embed from parent directories and since in this specific scenario I 
+This is because `go:embed` doesn't let you embed from parent directories and since in this specific scenario I 
 was trying to have multiple services split into cmd/ subfolders this seemed to be at odds with each other.
 
 > Patterns may not contain ‘.’ or ‘..’ or empty path elements, nor may they begin or end with a slash.
