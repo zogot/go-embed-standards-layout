@@ -1,4 +1,4 @@
-# go:embed and the go-standards project layout
+# go:embed and the golang-standards project layout
 
 While experimenting with Go and trying out the go:embed directive to serve a VueJS application I was running
 into an issue with trying to stick to the [golang-standards project layout][l-gspj]
